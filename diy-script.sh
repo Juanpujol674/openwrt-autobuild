@@ -46,16 +46,16 @@ git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-git_sparse_clone master https://github.com/vernesong/OpenClash package/luci-app-openclash
-git_sparse_clone master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-git_sparse_clone master https://github.com/maxlicheng/luci-app-unblockmusic package/luci-app-unblockmusic
-git_sparse_clone main https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
-git_sparse_clone main https://github.com/sirpdboy/luci-app-lucky package/luci-app-lucky
-git_sparse_clone main https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
-git_sparse_clone main https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
-git_sparse_clone dev https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
-git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo luci-app-mihomo
-git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo mihomo
+git clone --depth=1 https://github.com/vernesong/OpenClash package/luci-app-openclash
+git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone --depth=1 https://github.com/maxlicheng/luci-app-unblockmusic package/luci-app-unblockmusic
+git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+git clone --depth=1 https://github.com/sirpdboy/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
+git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
+git clone --depth=1 https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo luci-app-mihomo
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo mihomo
 
 # Themes
 # git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
