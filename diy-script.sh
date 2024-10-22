@@ -46,7 +46,15 @@ git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-# git_sparse_clone master https://github.com/vernesong/OpenClash package/luci-app-openclash
+git_sparse_clone master https://github.com/vernesong/OpenClash package/luci-app-openclash
+git_sparse_clone master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git_sparse_clone master https://github.com/maxlicheng/luci-app-unblockmusic package/luci-app-unblockmusic
+git_sparse_clone main https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+git_sparse_clone main https://github.com/sirpdboy/luci-app-lucky package/luci-app-lucky
+git_sparse_clone main https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
+git_sparse_clone main https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
+git_sparse_clone dev https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
+git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo package/OpenWrt-mihomo
 
 # Themes
 # git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
@@ -56,7 +64,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/l
 # git_sparse_clone main https://github.com/haiibo/packages luci-theme-atmaterial luci-theme-opentomcat luci-theme-netgear
 
 # 更改 Argon 主题背景
-# cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
 # 晶晨宝盒
 # git_sparse_clone main https://github.com/ophub/luci-app-amlogic luci-app-amlogic
