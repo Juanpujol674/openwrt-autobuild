@@ -54,7 +54,8 @@ git_sparse_clone main https://github.com/sirpdboy/luci-app-lucky package/luci-ap
 git_sparse_clone main https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 git_sparse_clone main https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
 git_sparse_clone dev https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
-git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo package/OpenWrt-mihomo
+git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo package/luci-app-mihomo
+git_sparse_clone master https://github.com/morytyann/OpenWrt-mihomo package/mihomo
 
 # Themes
 # git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
