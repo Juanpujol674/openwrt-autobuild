@@ -54,8 +54,8 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-lucky package/luci-app-
 git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
 git clone --depth=1 https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
-git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo luci-app-mihomo
-git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo mihomo
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/luci-app-mihomo
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/mihomo
 
 # Themes
 # git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
